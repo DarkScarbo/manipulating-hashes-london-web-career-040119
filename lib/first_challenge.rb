@@ -17,11 +17,7 @@ def first_challenge
   contacts.each do |person, data|
     data.each do |attribute, value|
       if attribute == :favourite_icecream_flavors
-        value.each do |flavor|
-          if flavor == "strawerry"
-            attribute.shift(value)
-          end
-        end
+        favourite_icecram_flavours.
       end
     end
   end
