@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   array = []
-  groceries.each do |type_of_food|
-    type_of_food.values << array
+  groceries.each do |types|
+    types.values << array
   end  
 end
